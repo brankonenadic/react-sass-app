@@ -1,4 +1,10 @@
 $mainColor: #2929aa;
+$success: #2529ff;
+
+@function mainButton($color) {
+   $color:$success;
+   
+};
 
 .App {
   text-align: center;
